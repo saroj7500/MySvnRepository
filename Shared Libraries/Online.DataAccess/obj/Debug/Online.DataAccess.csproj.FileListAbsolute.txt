@@ -1,0 +1,5 @@
+C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataAccess\bin\Debug\Online.DataAccess.dll
+C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataAccess\bin\Debug\Online.DataAccess.pdb
+C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataAccess\obj\Debug\Online.DataAccess.dll
+C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataAccess\obj\Debug\Online.DataAccess.pdb
+C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataAccess\obj\Debug\Online.DataAccess.csprojResolveAssemblyReference.cache

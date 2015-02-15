@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WebMasterPageForAdmin.master.cs" Inherits="MasterPages_WebMasterPageForAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="../Stylesheets/Style.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+        function DisplaySubDiv(mainDIV, Subdiv, mainDivHeight) {
+            (document.getElementById(mainDIV)).style.height = mainDivHeight;
+            (document.getElementById(Subdiv)).style.display = "inline";
+        }
+
+        function HideSubDiv(mainDIV, Subdiv) {
+            (document.getElementById(mainDIV)).style.height = "65px";
+            (document.getElementById(Subdiv)).style.display = "none";
+        }
+    </script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <span class="heading">Book<b>&nbsp;Anything.com</b></span>
+        <span class="searchbox">
+            <asp:TextBox ID="TextBox_Search" runat="server" Width="70%" Height="20px"></asp:TextBox>&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button_Search" runat="server" CssClass="searchbutton" Text="Search" />
+        </span>
+        <br />
+        <br />
+        <div class="headpanel">
+            <div>
+                <a href="#">Home</a>&nbsp;&nbsp;&nbsp;<span></span>
+                &nbsp;&nbsp;&nbsp;
+                <a href="#">Login</a>&nbsp;&nbsp;&nbsp;<span></span>
+                &nbsp;&nbsp;&nbsp;
+                <a href="#">About Us</a>&nbsp;&nbsp;&nbsp;<span></span>
+                &nbsp;&nbsp;&nbsp;
+                <a href="#">Services</a>&nbsp;&nbsp;&nbsp;<span></span>
+                &nbsp;&nbsp;&nbsp;
+                <a href="#">Register</a>&nbsp;&nbsp;&nbsp;<span></span>
+                &nbsp;&nbsp;&nbsp;
+                <a href="#">Contact</a>&nbsp;&nbsp;&nbsp;<span></span>
+                &nbsp;&nbsp;&nbsp;
+                <a href="#">Help</a>&nbsp;&nbsp;&nbsp;<span></span>
+                &nbsp;&nbsp;&nbsp;
+                <a href="#">FAQ's</a>
+            </div>
+        </div>
+        <div class="headlowerpanel">
+        </div>
+        <div class="leftpanel">
+            <p></p>
+            <span>Booking Categories</span>
+            <p></p>
+            <div id="Bus_Div" onmouseover="DisplaySubDiv('Bus_Div','Bus_SubDiv','140px');" onmouseout="HideSubDiv('Bus_Div','Bus_SubDiv');">
+                <p></p>
+                <a href="#">
+                    <img id="busicon" runat="server" src="~/SystemFolder/SystemImages/busicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp; Bus</a>
+                <div id="Bus_SubDiv" class="sublinkcontainer" style="border: none;">
+                    <div style="margin-top: 10px;">
+                        <div style="height: 10px; border: none;"></div>
+                        <a href="#">
+                            <img id="Img_BusTicket" runat="server" src="~/SystemFolder/SystemImages/busticketicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Bus Ticket</a>
+                    </div>
+                    <div>
+                        <div style="height: 10px; border: none;"></div>
+                        <a href="#">
+                            <img id="Img_Travel" runat="server" src="~/SystemFolder/SystemImages/travelbusicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Reserve Bus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p></p>
+                <a href="#">
+                    <img id="Img_Auto" runat="server" src="~/SystemFolder/SystemImages/autoicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Auto</a>
+            </div>
+            <div>
+                <p></p>
+                <a href="#">
+                    <img id="Img_Cab" runat="server" src="~/SystemFolder/SystemImages/cabicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Cab</a>
+            </div>
+            <div>
+                <p></p>
+                <a href="#">
+                    <img id="Img_Taxi" runat="server" src="~/SystemFolder/SystemImages/taxiicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Taxi</a>
+            </div>
+            <div>
+                <p></p>
+                <a href="#">
+                    <img id="Img_Train" runat="server" src="~/SystemFolder/SystemImages/trainicon.png" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Train</a>
+            </div>
+            <div>
+                <p></p>
+                <a href="#">
+                    <img id="Img_Flight" runat="server" src="~/SystemFolder/SystemImages/flighticon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Flight</a>
+            </div>
+            <div>
+                <p></p>
+                <a href="#">
+                    <img id="Img_Hotel" runat="server" src="~/SystemFolder/SystemImages/hotelicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Hotel</a>
+            </div>
+            <div id="Transport_Div" onmouseover="DisplaySubDiv('Transport_Div','Transport_SubDiv','220px');" onmouseout="HideSubDiv('Transport_Div','Transport_SubDiv');">
+                <p></p>
+                <a href="#">
+                    <img id="Img_Transport" runat="server" src="~/SystemFolder/SystemImages/transporticon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Transport</a>
+                <div id="Transport_SubDiv" class="sublinkcontainer" style="border: none;">
+                    <div style="margin-top: 10px;">
+                        <div style="height: 10px; border: none;"></div>
+                        <a href="#">
+                            <img id="Img_HeavyTransporters" runat="server" src="~/SystemFolder/SystemImages/heavyicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Heavy Transporters</a>
+                    </div>
+                    <div>
+                        <div style="height: 10px; border: none;"></div>
+                        <a href="#">
+                            <img id="Img_Truck" runat="server" src="~/SystemFolder/SystemImages/truckicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Truck</a>
+                    </div>
+                    <div>
+                        <div style="height: 10px; border: none;"></div>
+                        <a href="#">
+                            <img id="Img_MiniTruck" runat="server" src="~/SystemFolder/SystemImages/minitruckicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Mini Truck</a>
+                    </div>
+                    <div>
+                        <div style="height: 10px; border: none;"></div>
+                        <a href="#">
+                            <img id="Img_MiniTransporters" runat="server" src="~/SystemFolder/SystemImages/smallveichleicon.jpg" style="height: 15px; width: 15px;" />&nbsp;&nbsp;&nbsp;Mini Transporters</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
