@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BookAnything.com", "BookAnything.com\", "{356310CA-7A67-4510-91DD-7921B61A58B7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/BookAnything.com"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Project\trunk\BookAnything.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BookAnything.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BookAnything.com"
+		Release.AspNetCompiler.PhysicalPath = "D:\Project\trunk\BookAnything.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BookAnything.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3276"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online.Core", "Online.Core\Online.Core.csproj", "{78E60082-013D-401D-A3B7-768FDC1DCF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online.Security", "Online.Security\Online.Security.csproj", "{2B7880E1-7CE7-4E9C-89AB-8A781738DB2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online.DataAccess", "Shared Libraries\Online.DataAccess\Online.DataAccess.csproj", "{555502E8-80B8-4800-A9FE-649CC38EE578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online.DataLayer", "Shared Libraries\Online.DataLayer\Online.DataLayer.csproj", "{0457A8C6-8274-4A67-9ACA-3004C94E706E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online.Model", "Shared Libraries\Online.Model\Online.Model.csproj", "{5FB8D1EB-133E-4515-B5EA-EE4925FD0BE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{356310CA-7A67-4510-91DD-7921B61A58B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356310CA-7A67-4510-91DD-7921B61A58B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356310CA-7A67-4510-91DD-7921B61A58B7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{356310CA-7A67-4510-91DD-7921B61A58B7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{78E60082-013D-401D-A3B7-768FDC1DCF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E60082-013D-401D-A3B7-768FDC1DCF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E60082-013D-401D-A3B7-768FDC1DCF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E60082-013D-401D-A3B7-768FDC1DCF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7880E1-7CE7-4E9C-89AB-8A781738DB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7880E1-7CE7-4E9C-89AB-8A781738DB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7880E1-7CE7-4E9C-89AB-8A781738DB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7880E1-7CE7-4E9C-89AB-8A781738DB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555502E8-80B8-4800-A9FE-649CC38EE578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555502E8-80B8-4800-A9FE-649CC38EE578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555502E8-80B8-4800-A9FE-649CC38EE578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555502E8-80B8-4800-A9FE-649CC38EE578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0457A8C6-8274-4A67-9ACA-3004C94E706E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0457A8C6-8274-4A67-9ACA-3004C94E706E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0457A8C6-8274-4A67-9ACA-3004C94E706E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0457A8C6-8274-4A67-9ACA-3004C94E706E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB8D1EB-133E-4515-B5EA-EE4925FD0BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB8D1EB-133E-4515-B5EA-EE4925FD0BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB8D1EB-133E-4515-B5EA-EE4925FD0BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB8D1EB-133E-4515-B5EA-EE4925FD0BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

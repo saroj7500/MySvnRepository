@@ -1,0 +1,4 @@
+D:\Project\trunk\Online.Security\bin\Debug\Online.Security.dll
+D:\Project\trunk\Online.Security\bin\Debug\Online.Security.pdb
+D:\Project\trunk\Online.Security\obj\Debug\Online.Security.dll
+D:\Project\trunk\Online.Security\obj\Debug\Online.Security.pdb

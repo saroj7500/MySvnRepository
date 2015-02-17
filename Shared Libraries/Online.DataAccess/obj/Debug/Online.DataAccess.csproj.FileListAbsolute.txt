@@ -3,3 +3,7 @@ C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataAccess\obj\Debug\Online.DataAccess.dll
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataAccess\obj\Debug\Online.DataAccess.pdb
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataAccess\obj\Debug\Online.DataAccess.csprojResolveAssemblyReference.cache
+D:\Project\trunk\Shared Libraries\Online.DataAccess\bin\Debug\Online.DataAccess.dll
+D:\Project\trunk\Shared Libraries\Online.DataAccess\bin\Debug\Online.DataAccess.pdb
+D:\Project\trunk\Shared Libraries\Online.DataAccess\obj\Debug\Online.DataAccess.dll
+D:\Project\trunk\Shared Libraries\Online.DataAccess\obj\Debug\Online.DataAccess.pdb

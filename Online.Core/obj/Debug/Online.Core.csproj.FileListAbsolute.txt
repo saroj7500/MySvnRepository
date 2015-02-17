@@ -3,3 +3,8 @@ C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Online.Core\bin\Debug\Online.Core.pdb
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Online.Core\obj\Debug\Online.Core.dll
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Online.Core\obj\Debug\Online.Core.pdb
+D:\Project\trunk\Online.Core\obj\Debug\Online.Core.csprojResolveAssemblyReference.cache
+D:\Project\trunk\Online.Core\obj\Debug\Online.Core.dll
+D:\Project\trunk\Online.Core\obj\Debug\Online.Core.pdb
+D:\Project\trunk\Online.Core\bin\Debug\Online.Core.dll
+D:\Project\trunk\Online.Core\bin\Debug\Online.Core.pdb

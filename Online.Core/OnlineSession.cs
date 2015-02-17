@@ -15,7 +15,7 @@ namespace Online.Core
         #region Public Methods
         public static void RecordLoginDetails(LoginInfo loginInformation)
         {
-            MemberID = loginInformation.MemberID;
+            MemberID = loginInformation.UserID;
             EnrollmentID = loginInformation.EnrollmentID;
             UserName = loginInformation.UserName;
             UserRoleID = loginInformation.UserRoleID;
@@ -32,8 +32,8 @@ namespace Online.Core
         #region Public Properties
         public static int MemberID
         {
-            get{ return sessionState.MemberID;}
-            set{ sessionState.MemberID = value;}
+            get { return sessionState.UserID; }
+            set { sessionState.UserID = value; }
         }
 
         public static int EnrollmentID

@@ -8,18 +8,18 @@ namespace Online.Core
 {
     public interface ISessionStateProvider
     {
-        public int UserID { get; set; }
-        public string UserCode { get; set; }
-        public int EnrollmentID { get; set; }
-        public string UserName { get; set; }
-        public string UserImageGUID { get; set; }
-        public int UserRoleID { get; set; }
-        public string UserRoleKey { get; set; }
-        public bool IsUserLoggedIn { get; set; }
-        public DateTime LoginTime { get; set; }
-        public long? LoginIP { get; set; }
-        public string PreviousPageUrl { get; set; }
-        public string StartPageUrl { get; set; }
-        public string MobileNo { get; set; }
+        int UserID { get; set; }
+        string UserCode { get; set; }
+        int EnrollmentID { get; set; }
+        string UserName { get; set; }
+        string UserImageGUID { get; set; }
+        int UserRoleID { get; set; }
+        string UserRoleKey { get; set; }
+        bool IsUserLoggedIn { get; set; }
+        DateTime LoginTime { get; set; }
+        long? LoginIP { get; set; }
+        string PreviousPageUrl { get; set; }
+        string StartPageUrl { get; set; }
+        string MobileNo { get; set; }
     }
 }

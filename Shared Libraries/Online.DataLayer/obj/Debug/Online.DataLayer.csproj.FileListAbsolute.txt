@@ -5,3 +5,10 @@ C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataLayer\bin\Debug\Online.DataAccess.pdb
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataLayer\obj\Debug\Online.DataLayer.dll
 C:\Users\Vertis\Documents\Visual Studio 2012\Projects\Online Examination System\Shared Libraries\Online.DataLayer\obj\Debug\Online.DataLayer.pdb
+D:\Project\trunk\Shared Libraries\Online.DataLayer\bin\Debug\Online.DataLayer.dll
+D:\Project\trunk\Shared Libraries\Online.DataLayer\bin\Debug\Online.DataLayer.pdb
+D:\Project\trunk\Shared Libraries\Online.DataLayer\bin\Debug\Online.DataAccess.dll
+D:\Project\trunk\Shared Libraries\Online.DataLayer\bin\Debug\Online.DataAccess.pdb
+D:\Project\trunk\Shared Libraries\Online.DataLayer\obj\Debug\Online.DataLayer.csprojResolveAssemblyReference.cache
+D:\Project\trunk\Shared Libraries\Online.DataLayer\obj\Debug\Online.DataLayer.dll
+D:\Project\trunk\Shared Libraries\Online.DataLayer\obj\Debug\Online.DataLayer.pdb

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Online.Core
 {
-    public class LoginInfo:ISessionStateProvider
+    public class LoginInfo: ISessionStateProvider
     {
         public int UserID { get; set; }
         public string UserCode { get; set; }
