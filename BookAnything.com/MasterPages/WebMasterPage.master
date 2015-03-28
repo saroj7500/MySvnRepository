@@ -49,8 +49,9 @@
             </div>
         </div>
         <div class="headlowerpanel">
+            
         </div>
-        <div class="leftpanel">
+        <span class="leftpanel">
             <p></p>
             <span>Booking Categories</span>
             <p></p>
@@ -129,7 +130,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </span>
+        <span style="float:right;width:80%;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder_Body" runat="server"></asp:ContentPlaceHolder>
+        </span>
     </form>
 </body>
 </html>
