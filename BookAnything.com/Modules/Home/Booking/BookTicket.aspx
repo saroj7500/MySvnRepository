@@ -5,7 +5,18 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Body" Runat="Server">
     <asp:ScriptManager ID="ScriptManager_BookTicket" runat="server"></asp:ScriptManager>
-    <div style="width:40%;height:50%;margin-top:100px; margin-left:50px;">
+     <div style="width:100%;height:100%;background-color:cyan;">
+         <div style="height:40%;width:30%;float:right;padding-top:20px;">
+             <h3>Login:</h3>
+            <table> 
+           <tr><td>Username</td><td><asp:TextBox ID="TextBox_UserName" runat="server" Height="25px"></asp:TextBox></td></tr>
+                <tr><td>Password</td><td><asp:TextBox ID="TextBox_Password" runat="server" Height="25px"></asp:TextBox></td></tr>
+                <tr><td></td><td><asp:Button ID="Button_Submit" runat="server" Text="Login" /></td></tr>
+                <tr><td><a href="#" style="color:red;">Forget Password</a></td></tr>
+                <tr><td><a href="#" style="color:red;"> New User</a></td></tr>
+                </table>
+         </div>
+    <div style="width:70%;height:50%;margin-top:100px; margin-left:50px;">
         <table style="width:600px;height:auto;border:thick; border-color:red;padding-top:20px;">
             <tr><td><h4>From</h4></td>
                 <td><asp:TextBox ID="TextBox_From" runat="server" Height="25px"></asp:TextBox>
@@ -48,6 +59,10 @@
         </table>
         <ajax:CalendarExtender ID="CalendarExtender_DateOfJourney" runat="server" PopupButtonID="ImageButton_CalenderExtender" 
             TargetControlID="TextBox_Dateofjourney"></ajax:CalendarExtender>
+        
     </div>
+         
+     </div>
+    
 </asp:Content>
 
