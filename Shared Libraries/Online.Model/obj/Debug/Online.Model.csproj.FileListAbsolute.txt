@@ -1,5 +1,0 @@
-D:\Project\trunk\Shared Libraries\Online.Model\bin\Debug\Online.Model.dll
-D:\Project\trunk\Shared Libraries\Online.Model\bin\Debug\Online.Model.pdb
-D:\Project\trunk\Shared Libraries\Online.Model\obj\Debug\Online.Model.csprojResolveAssemblyReference.cache
-D:\Project\trunk\Shared Libraries\Online.Model\obj\Debug\Online.Model.dll
-D:\Project\trunk\Shared Libraries\Online.Model\obj\Debug\Online.Model.pdb
